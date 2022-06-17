@@ -1,13 +1,11 @@
-# ExercicioChainOfResposibility_EGIII
-
 Implementar em Java, com camada model completa e camada de persistência para a solução do seguinte problema:
 
-Um sistema de pagamento de funcionários que precisa cadastrar os funcionários por um ID único (INT), nome (VARCHAR(60)), salário (FLOAT). O sistema deve permitir o CRUD Completo dessa entidade e um Select ALL.
- Além disso, o sistema deve ter, na camada de controle, uma forma* de calcular, para posterior exibição, do desconto INSS do funcionário, que segue o seguinte padrão:
-Até R$ 1.212,00 (salário-mínimo) – 7,5% do salário
-Entre R$ 1. 212,00 e R$ 2.427,35 – 9% da diferença
-Entre R$ 2.427,36 e R$ 3.641,03 – 12% da diferença
-Entre R$ 3.641,03 e R$ 7.087,22– 14% da diferença
+Um sistema de pagamento de funcionários que precisa cadastrar os funcionários por um ID único (INT), nome (VARCHAR(60)), salário (FLOAT). O sistema deve permitir o CRUD Completo dessa entidade e um Select ALL. Além disso, o sistema deve ter, na camada de controle, uma forma* de calcular, para posterior exibição, do desconto INSS do funcionário, que segue o seguinte padrão:
+ - Até R$ 1.212,00 (salário-mínimo) – 7,5% do salário
+ - Entre R$ 1. 212,00 e R$ 2.427,35 – 9% da diferença
+ - Entre R$ 2.427,36 e R$ 3.641,03 – 12% da diferença
+ - Entre R$ 3.641,03 e R$ 7.087,22– 14% da diferença
+
 Exemplo 1:
 Se um trabalhador ganha R$ 1.500,00, o desconto do INSS será de 7,5% sobre R$ 1.212,00 (R$ 90,90) + a alíquota de 9% sobre a quantia que está na faixa seguinte (1.500,00 – 1.212,00 = R$ 288). O valor será de R$ 25,92.
 
